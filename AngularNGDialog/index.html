@@ -3,11 +3,16 @@
 
 <head>
     <title></title>
+    <!--Angular そのもの-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js"></script>
+    <!--Angular Sanitize-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.4.8/angular-sanitize.js"></script>
+    <!--Angular UI Bootstrap-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js"></script>
+    <!--Bootstrap-->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
     
+    <!--angular-dialog-service 本体-->
     <script src="/dialog/dialogs.min.js"></script>
     <link href="/dialog/dialogs.min.css" rel="stylesheet" />
  
@@ -15,7 +20,6 @@
     
 </head>
 <body>
-
     <div ng-controller="MyCtrl">
         <button class="btn btn-primary" ng-click="Open()">Open Dialog</button>
     </div>
